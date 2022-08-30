@@ -1,0 +1,10 @@
+#produccion
+https://api.mrdims.com/V2/Help 
+
+#clima
+https://apisdm.mrdims.com/Help 
+-----------------------------
+api terminales ---> datos geolocalizados
+api SDM ---> ciudades con los datos lat y lon y dist (30km) : resultado con ciudades cercanas con datos meteorologicos. 
+	     Uso el ID de la ciudad que mas cerca del punto esta. 
+api SDM ---> ciudadescurrent: datos varios. (desde y hasta)
