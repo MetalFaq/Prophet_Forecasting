@@ -77,15 +77,18 @@ Una vez pasadas las 48 hs, me aseguro de descargar de la API los datos de consum
 
 ## Ejecución
 <ul>
-  <li>Ejecutar: python datos_api.py</li>
+  <li>Para descargar los datos desde la API, ejecutar: python datos_api.py</li>
   <li>Se genera una carpeta llamada "Train_Data_API" donde se guardan los datos de consumo pasado y el clima de esos días.</li>
   <li>Se genera una carpeta llamada "Pronostico_Clima_API", donde se almacenan los datos del pronostico del clima a 48hs.</li>
-  <li>Ejecutar: python Forecast_demanda.py</li>
-  <li>Se genera una carpeta "Pronostico_Demanda_48hs" donde se guarda un archivo .csv con los datos a futuro y una gráfica que representa dichos datos.</li>
+  <li>Para llevar a cabo el programa de pronótico, ejecutar: python Forecast_demanda.py</li>
+  <li>Se genera una carpeta "Pronostico_Demanda_48hs" donde se guarda un archivo .csv con los datos a futuro y una gráfica que representa el comportamiento de dichos datos.</li>
 </ul>
 
 ## Comprobaciones
 <ul>
-  <li>Pasadas las 48hs, crear una carpeta llamada "Seguimiento" y correr: python MAPE.py</li>
+  <li>Pasadas las 48hs, ir hasta la carpeta llamada "Seguimiento" y correr: python MAPE.py<br>
+      Recomiento que este paso se lleve a cabo desde la PowerShell de Windows (si estás haciendolo desde dicho SO). 
+  </li>
   <li>Esto generará una carpeta con el nombre del medidor bajo pronóstico y dentro un archivo con los datos de fecha, consumo y clima junto a un grafico comparando datos reales con datos pronosticados. </li>
+<li>En la carpeta "Documentos" no hay nada ejecutable, lo más importante es un excel que he hecho para juntar y graficar alguno de los pronóticos que he hecho</li>
 </ul>
